@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+    <style>
+        body{
+           margin: 0;
+              padding: 0;
+        }
+        html,*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            width: 900px;
+            margin: 0 auto;
+            height: auto;
+            background-color: rgb(202, 172, 223);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        header{
+            height: 100px;
+            background-color: rgb(122, 75, 152);
+        }
+        article{
+            height: 300px;
+            background-color: rgb(111, 67, 124);
+        }
+        section{
+            height: 150px;
+            background-color: rgb(79, 43, 112);
+        }
+        .box{
+            height: 500px;
+            width: 380px;
+            background-color: rgb(138, 92, 179);
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        #box{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 10px;
+        }
+        footer{
+            height: 100px;
+            background-color: rgb(122, 75, 152);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header><h2>Header</h2></header>
+        <article><h2>Article</h2>
+        </article>
+        <section>
+            <h2>Section</h2>
+        </section>
+        <div id="box">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+        </div>
+        <footer><h2>Footer</h2></footer>
+    </main>
+</body>
+</html>
