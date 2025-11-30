@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body,html,* {
+           
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            width: 800px;
+            height: auto;
+            background-color: #999;
+            margin: 0 auto;
+        }
+
+
+        .div2 {
+            width: 800px;
+            background-color: rgb(77, 100, 111);
+            border: 1px solid black;
+            height: 200px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-left: 20px;
+            object-fit: cover;
+            padding-top: 20px;
+        }
+
+        .profile-text {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 100px;
+            padding-top: 20px;
+            color: white;
+        }
+
+        .name {
+            font-size: 32px;
+            font-weight: bold;
+            text-justify: center;
+        }
+        section{
+            width:800px;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        .div3 {
+          width: 450px;
+            height: 600px;
+            background-color: rgb(77, 100, 111);
+            border: 1px solid black;
+        }
+
+        .div4 {
+            width: 400px;
+            height: 600px;
+            background-color: rgb(77, 100, 111);
+            border: 1px solid black;
+        }
+
+        .Profile {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 10px;
+            color: white;
+        }
+
+        .para {
+            font-size: 16px;
+            text-align: justify;
+            padding: 10px;
+            color: white;
+        }
+
+        .para1 {
+            font-size: 16px;
+            text-align: justify;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+     
+            <div class="div2"><!--top part-->
+                <img src="profile-icon.avif" alt="Profile Image" class="profile-img">
+                <div class="profile-text">
+                    <h1 class="name">ASTHA SHUKLA</h1>
+                    <p>Full Stack Web Developer</p>
+                </div>
+            </div><!--top end-->
+            <section>
+
+            <div class="div3">
+                <h3 class="Profile">PROFILE</h3>
+                <p class="para">I am a professional full stack web developer with 5 years of experience web developer
+                    for many International companies. I uphold principles of hardwork, dedication,commitment and
+                    perseverance to bring out the best in my work.</p>
+                <h3 class="Profile">CONTACT</h3>
+                <p class="para">Email: abc123@gmail.com<br>
+                    Phone: +1234567890<br>
+                    Location: New York, USA</p>
+                <h3 class="Profile">HOBBIES & INTERESTS</h3>
+                <ul class="para1">
+                    <li>Participating in hackathons to stay current with technology.</li>
+                    <li>Reading tech blogs and articles to enhance my knowledge.</li>
+                    <li>Exploring new programming languages and frameworks.</li>
+                    </p>
+                </ul>
+            </div>
+            <div class="div4">
+                <h3 class="Profile">EDUCATION</h3>
+                <p class="para">Bachelor of Technology in Computer Science<br>
+                    XYZ University, 2018 - 2022<br>
+                    GPA: 3.8/4.0</p>
+                <h3 class="Profile">SKILLS</h3>
+                <ul class="para1">
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Node.js, Express</li>
+                    <li>Python, Django</li>
+                    <li>SQL, MongoDB</li>
+                    <li>Git, GitHub</li>
+                </ul>
+            </div>
+      </section>
+    </main>
+</body>
+
+</html>
