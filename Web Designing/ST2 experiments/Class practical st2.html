@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+<style>
+html, *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+color: white;
+text-align: center;
+height: 100px;
+width: 100%;		
+background-color: Black;
+Align-items: center;
+}
+a.hover{
+border: 2px solid black;
+}
+@media(max-width: 764px){
+nav{
+flex-direction: column;
+ height: auto;
+ padding: 10px;
+display: flex;
+align-items: flex-start;
+border: 2px solid white;
+}
+}
+a{
+padding: 10px;
+}
+</style>
+</head>
+<body>
+<header><h1>E-SHOP</h1></header>
+    <nav>
+<a href=" ">Home</a>
+
+<a href=" ">Categories</a>
+
+<a href=" ">Orders</a>
+
+<a href=" ">Wishlist</a>
+
+<a href=" ">Cart</a>
+
+<a href=" ">Login</a>
+</nav>
+</body>
+</html>
