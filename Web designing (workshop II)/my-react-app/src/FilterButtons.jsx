@@ -1,4 +1,4 @@
-function FilterButtons({
+/*function FilterButtons({
   filter,
   setFilter,
 }) {
@@ -46,4 +46,4 @@ function FilterButtons({
   );
 }
 
-export default FilterButtons;
+export default FilterButtons;*/
