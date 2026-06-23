@@ -1,4 +1,4 @@
-* {
+/** {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -134,7 +134,7 @@ body {
 
 /* Responsive Design */
 
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
   .todo-form {
     flex-direction: column;
   }
@@ -152,4 +152,4 @@ body {
   .filters {
     flex-wrap: wrap;
   }
-}
+}*/
