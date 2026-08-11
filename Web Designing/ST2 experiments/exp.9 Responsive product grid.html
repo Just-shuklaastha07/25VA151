@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive product grid</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        html, * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main {
+            margin: 0;
+            width: 80%;
+            background-color: azure;
+            text-align: center;
+            gap: 10px;
+            align-items: center;
+        }
+        header {
+            height: 100px;
+            background-color: rgb(2, 2, 2);
+            padding: 20px;
+            text-align: center;
+            color: aliceblue
+        }
+        .items {
+            height: auto;
+            width: auto;
+            background-color: rgb(162, 162, 118);
+        }
+        img {
+            width: 300px;
+            max-width: 100%;
+            margin-top: 20px;
+            height: auto;
+        } 
+        h2{
+            margin-top: 40px;
+        }
+        span h3{
+            height: 70px;
+            width: auto;
+            background-color: rgb(45, 80, 129);
+            color: aliceblue;
+            padding: 30px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        } 
+        @media (max-width: 1024px) {
+            .container {
+                flex-direction: row;
+            }
+        }
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+ <body>
+    <main>
+        <!--item 1-->
+        <header>
+            <h1>SAVANA</h1>
+        </header>
+        <div class="container">
+        <div class="items"><img src="Img1.webp" alt="Item 1">
+            <h2>Lace-trimmed A-Line Dress</h2>
+            <p>Moderately Stretchable, Slim Fit<br> Does not come with Belt, Sleeveless</p>
+            <span style="color: rgb(5, 131, 5);"><strong>$45</strong></span> &ensp;<s>$65</s>
+        <span>
+            <h3>ADD TO CART</h3>
+        </span>
+        </div>
+        <!--item 2-->
+        <div class="items"><img src="img2.jpg" alt="Item 2">
+            <h2>Solid Shoulder Bag</h2>
+            <p>Italian Genuine Leather<br> Crossbody with Detachable Straps <br> Brass Hardware</p>
+            <span style="color: rgb(5, 131, 5);"><strong>$255</strong></h2></span> &ensp;<s>$325</s>
+        <span>
+            <h3>ADD TO CART</h3>
+        </span>
+        </div>
+        <!--item 3-->
+        <div class="items"><img src="img4.jpg" alt="Item 3">
+            <h2>Black Shiny Heels</h2>
+            <p>Comfortable cushioned insole<br>
+                 sleek, elegent high-heel design<br>Anti-slip,Premium Black finish
+            </p>
+            <span style="color: rgb(5, 131, 5);"><strong>$60</strong></h2></span> &ensp;<s>$99</s>
+        <span>
+            <h3>ADD TO CART</h3>
+        </span>
+        </div>
+        <!--item 4-->
+        <div class="items"><img src="img3 - Copy.jpg" alt="Item 4">
+            <h2> Bow Tie Fashion Bracelet</h2>
+            <p>Pearly Bow Bracelet in Pink<br> Comfortable Fit, Premium materials</p>
+            <span style="color: rgb(5, 131, 5);"><strong>$12</strong></h2></span> &ensp;<s>$20</s>
+        <span>
+            <h3>ADD TO CART</h3>
+        </span>
+        </div>
+        </div>
+    </main>
+</body>
+</html>

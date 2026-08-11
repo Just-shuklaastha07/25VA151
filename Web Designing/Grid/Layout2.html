@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 2</title>
+    <style>
+        html,*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 80%;
+            gap: 5px;
+        }
+        header{
+            height: 100px;
+            background-color: rgb(128, 126, 126);
+        }
+        section{
+            height: 200px;
+            background-color: gray;
+        }
+        .container{
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(184, 182, 182);
+            gap: 5px;
+        }
+        .box{
+            width: 400px;
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(93, 92, 92);
+
+        }
+    </style>
+</head>
+<body>
+    <header><h2>Header</h2></header>
+    <section><h2>Text Area</h2></section>
+    <div class="container">
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+        <div class="box">Box3</div>
+    </div>
+    <footer><h2>Footer</h2></footer>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+</head>
+<style>
+
+   /* #box ~ p {
+        color:brown;
+    }
+    #box p {
+        color:bisque;
+    }
+    #box + p {
+         color:chocolate;
+    }*/
+    #box > p {
+          color:blueviolet;
+    }
+    /*a:link{
+        text-decoration: none; font-size: 20px;
+    }
+    a:hover{
+        color:brown;
+    }
+    a:active{
+        color:black;
+    }*/
+    a:visited{
+        color:cadetblue;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+    }
+    ul li{
+        margin: 20px;
+        border-right: 5px solid #e41111;
+        padding: 0px 20px;
+    }
+    ul li:nth-child(5){
+    border-right: 5px;
+    }
+    ul li::first-letter{
+    color:brown;
+    font-size: 20px;
+    }
+    p::first-line{
+        background-color: bisque;
+    }
+</style>
+<body>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Gallery</li>
+        <li>Contact</li>
+    </ul>
+    <div id="box">
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptas sunt dolor similique iste laudantium ad iusto tempore quam maxime veniam natus praesentium sequi deserunt nulla, aspernatur soluta asperiores repellendus.
+   </p> 
+   <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, aperiam culpa! Asperiores dolores deleniti itaque nemo adipisci atque, ea animi? Labore dolorum, quis saepe quibusdam minus cupiditate soluta est eligendi
+   </p>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugiat possimus explicabo deserunt molestias! Enim ad, quis error maiores autem ut voluptate, at libero cum tempore, laborum sapiente iure optio?
+   </p>
+   <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aspernatur praesentium assumenda dolore quis fugit ullam officia, recusandae fuga exercitationem quidem inventore architecto veniam cumque illum, harum rerum alias facilis.
+   </p>
+   </div>
+   <a href="">Visit the link</a>
+</body>
+</html>

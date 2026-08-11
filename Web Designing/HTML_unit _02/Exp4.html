@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" width="30%" align="center">
+        <tr> <td align="center">
+     <label for="Hotel Room Booking"><h2>Hotel Room Booking Form</h2></label>
+     <br><br>
+    <lable for="Full Name">Full name:</lable>
+    <input type="text" id="email"name="Email"required>
+    <br><br>
+    <!--Email-->
+    <label for="e-mail">Email:</label>
+    <input type="e-mail" id="e-mail" name="e-mail" required>
+    <br><br>
+
+    <!--Phone-->
+    <label for="phone">Phone No.:</label>
+        <input type="phone" id="phone" name="phone" required> 
+        <br><br>
+        <!--check in date-->
+         <label for="check in">Check-in Date:</label>
+         <input type="date" id="check in " name="check in " required>
+         <br><br>
+         
+         <!--check out date-->
+        <label for="check out "></label>check-out Date:</label>
+        <input type="date" id="check out" name="check out" required>
+    <br><br>
+
+    <!--room type-->
+     <label for="room">Room Type:</label>
+     <select id="room" name="room">
+     <option value="single">single room</option>
+     <option value="double">Double room</option>
+     <option value="deluxe">Deluxe room </option>
+     <option value="suite">Suite</option>
+     </select>
+     <br><br>
+
+     <!--number of guests-->
+    <label for ="guests">Number of guests:</label>
+    <input type ="number" id="guests"
+    name="guests" min="1" max="10">
+    <br><br>
+
+    <!--special guests-->
+    <label for="requests" align="center">Special Requests:</label><br>
+     <textarea id="requests" name="requests" rows="4" cols="40"></textarea>
+     <br><br>
+     <input type="submit" value="Book Now">
+     <input type="Reset" value="Reset Form">
+     <br><br>
+     </td>
+     </tr>
+     </table>
+    
+</body>
+</html>

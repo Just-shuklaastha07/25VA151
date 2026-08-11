@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive layout</title>
+    <style>
+        html,* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        main {
+            height: auto;
+            width: 1200px;
+            display: grid;
+            margin: 0 auto;
+            background-color: rgb(248, 251, 251);
+            /*grid-template-columns: repeat(4,1fr);*/
+            grid-template-rows: 100px,240px, auto 260 px;
+            gap: 10px 20px;
+        }
+        .box{
+            height: 250px;
+            background-color: rgb(141, 192, 192);
+        }
+       /* @media screen and (max-width: 768px){
+            main{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 20px;
+            }
+        }*/
+        @media screen and (max-width: 768px){
+            main{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 10px;
+            }
+        }
+        p{
+            font-size: 2vh;
+        }
+        /*
+        @media screen and (min-width: 768px){
+            .box{
+                background-color: rgb(164, 134, 192);
+            }
+        }*/
+
+
+
+        /*.box:nth-child(4){
+            background-color: rgb(192, 134, 162);
+            display: grid;
+            grid-template-columns: auto 1fr;
+        }*/
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam repellendus nostrum consectetur, perspiciatis culpa reiciendis expedita explicabo aut, rem itaque nemo quam voluptatem illum accusantium nihil ipsa molestiae in.</p>
+        </div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </main>
+</body>
+</body>
+
+</html>
